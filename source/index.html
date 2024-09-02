@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brunt</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page__body">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <button class="header__button-logo">yellowkitchen</button>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="#" class="header__item-log">log in</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__item-cart">0</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <button class="header__item-burger">
+                            <span class="header__burger-span"></span>
+                            <span class="header__burger-span"></span>
+                            <span class="header__burger-span"></span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="header__burger visually__hidden">
+                    <nav class="header__nav">
+                        <p class="header__nav-block">
+                            <a href="tel:0800111126" class="header__nav-tel">0800 111 126</a>
+                        <p class="header__nav-time-block">
+                            <time class="header__nav-time" datetime="T08:00">8:00</time>-
+                            <time class="header__nav-time" datetime="T20:00">20:00</time>
+                        </p>
+                        </p>
+                        <ul class="header__nav-list">
+                            <li class="header__nav-list-item">
+                                <a href="#" class="header__item-nav-link">Delivery info</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <a href="#" class="header__item-nav-link">About us</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <a href="#" class="header__item-nav-link">Restaurants</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <a href="#" class="header__item-nav-link">Specialities</a>
+                            </li>
+                        </ul>
+                        <form action="" method="get" class="header__nav-form">
+                            <select id="dropmenu" name="language" class="header__nav-language-dropmenu">
+                                <option id="dropmenu" value="English">English</option>
+                                <option id="dropmenu" value="Russian">Русский</option>
+                            </select>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="presentation">
+            <h2 class="visually__hidden">Presentation</h2>
+            <div class="container">
+                <p class="presentation__block">
+                <h2 class="presentation__title">Your Food court at home</h2>
+                <p class="presentation__order-way">
+                    <button class="presentation__way-button">
+                        <span class="presentation__way-title">Delivery</span>
+                        <span class="presentation__way-description">Order in</span>
+                    </button>
+                    <button class="presentation__way-button">
+                        <span class="presentation__way-title">Takeout</span>
+                        <span class="presentation__way-description">Grab and go</span>
+                    </button>
+                </p>
+                </p>
+                <ul class="presentation__dignity-list">
+                    <li class="presentation__dignity-item">
+                        <img src="#" alt="Clock with hands in the form of cutlery." class="presentation__dignity-image"
+                            width="48" height="48">
+                        <p class="presentation__dignity-text">
+                            delivery in all paris in less than 30 minutes
+                        </p>
+                    </li>
+                    <li class="presentation__dignity-item">
+                        <img src="#" alt="Courier on a moped." class="presentation__dignity-image" width="48"
+                            height="48">
+                        <p class="presentation__dignity-text">
+                            Free delivery from 29 euros
+                        </p>
+                    </li>
+                    <li class="presentation__dignity-item">
+                        <img src="#" alt="Eiffel Tower inside a heart." class="presentation__dignity-image" width="48"
+                            height="48">
+                        <p class="presentation__dignity-text">
+                            Only fresh and French products
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="order-place">
+            <h2 class="visually__hidden">Order place</h2>
+            <div class="container">
+                <div class="order-place__block">
+                    <h2 class="order-place__title">Restaurants</h2>
+                    <button class="order-place__button">show all</button>
+                </div>
+                <div class="order-place__block">
+                    <button class="order-place__swipe-left"></button>
+                    <ul class="order-place__list">
+                        <li class="order-place__item">
+                            <img class="order-place__item-image" src="#" alt="Burger." width="296" height="184">
+                            <img class="order-place__item-logo" src="#" alt="Burger d'lince.">
+                        </li>
+                        <li class="order-place__item">
+                            <img class="order-place__item-image" src="#" alt="Porridge." width="296" height="184">
+                            <img class="order-place__item-logo" src="#" alt="Pastifigio.">
+                        </li>
+                        <li class="order-place__item">
+                            <img class="order-place__item-image" src="#" alt="Salad." width="296" height="184">
+                            <img class="order-place__item-logo" src="#" alt="Bilieve.">
+                        </li>
+                        <li class="order-place__item">
+                            <img class="order-place__item-image" src="#" alt="Meat salad." width="296" height="184">
+                            <img class="order-place__item-logo" src="#" alt="Xbo.">
+                        </li>
+                    </ul>
+                    <button class="order-place__swipe-right"></button>
+                </div>
+                <div class="order-place__block">
+                    <p class="order-place__text">
+                    <h2 class="order-place__title">Your nearest restaurants</h2>
+                    <p class="order-place__description">
+                        Each kitchen works with its own delivery area to deliver food to
+                        you as soon as possible
+                    </p>
+                    </p>
+                    <form action="" method="get" class="order-place__form">
+                        <input type="text" placeholder="Enter delivery address" id="address"
+                            class="order-place__form-input" required>
+                        <button type="submit" class="order-place__form-button">send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="specialization">
+            <h2 class="visually__hidden">Specialization</h2>
+            <div class="container">
+                <div class="specialization__block">
+                    <h2 class="specialization__title">Specialities</h2>
+                    <button class="specialization__button">show all</button>
+                </div>
+                <div class="specialization__block">
+                    <button class="specialization__swipe-left"></button>
+                    <ul class="order-place__list">
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Bagel." width="48" height="48">
+                            <p class="specialization__item-title">Bagel</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Burger." width="48" height="48">
+                            <p class="specialization__item-title">Burger</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Chicken." width="48" height="48">
+                            <p class="specialization__item-title">Chicken</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Fish." width="48" height="48">
+                            <p class="specialization__item-title">Fish</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Fish’Chips." width="48" height="48">
+                            <p class="specialization__item-title">Fish’Chips</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Salads." width="48" height="48">
+                            <p class="specialization__item-title">Salads</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Pizza." width="48" height="48">
+                            <p class="specialization__item-title">Pizza</p>
+                        </li>
+                        <li class="specialization__item">
+                            <img class="specialization__item-image" src="#" alt="Pasta." width="48" height="48">
+                            <p class="specialization__item-title">Pasta</p>
+                        </li>
+                    </ul>
+                    <button class="specialization__swipe-right"></button>
+                </div>
+            </div>
+        </section>
+        <section class="results">
+            <h2 class="visually__hidden">Results</h2>
+            <div class="container">
+                <ul class="results__list">
+                    <li class="results__list-item">
+                        <p class="results__item-count">1</p>
+                        <p class="results__item-titel">kitchen</p>
+                    </li>
+                    <li class="results__list-item">
+                        <p class="results__item-count">11</p>
+                        <p class="results__item-titel">specialties</p>
+                    </li>
+                    <li class="results__list-item">
+                        <p class="results__item-count">11</p>
+                        <p class="results__item-titel">restaurants</p>
+                    </li>
+                    <li class="results__list-item">
+                        <p class="results__item-count">1</p>
+                        <p class="results__item-titel">transport costs</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="location">
+            <h2 class="visually__hidden">Map</h2>
+            <div class="container">
+            </div>
+        </section>
+        <section class="instagram">
+            <h2 class="visually__hidden">YellowKitchens in instagram</h2>
+            <div class="container">
+                <h2 class="instagram__titel">#YellowKitchens in instagram</h2>
+                <ul class="instagram__list">
+                    <li class="instagram__list-item">
+                        <img src="#" alt="Kitchen." width="296" height="299">
+                    </li>
+                    <li class="instagram__list-item">
+                        <img src="#" alt="Two people." width="296" height="299">
+                    </li>
+                    <li class="instagram__list-item">
+                        <img src="#" alt="Cook." width="296" height="299">
+                    </li>
+                    <li class="instagram__list-item">
+                        <img src="#" alt="Salad." width="296" height="299">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <div class="footer__apps">
+                    <button class="footer__button-logo">yellowkitchen</button>
+                    <ul class="footer__apps-list">
+                        <li class="footer__apps-item">
+                            <img src="#" alt="App store." width="79" height="28">
+                        </li>
+                        <li class="footer__apps-item">
+                            <img src="#" alt="Google play." width="79" height="28">
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <p class="footer__nav-item-tltle">About us</p>
+                            <ul class="footer__nav-item-list">
+                                <li class="footer__nav-item-elem">
+                                    <a href="#" class="footer__nav-elem-link">Concept</a>
+                                </li>
+                                <li class="footer__nav-item-elem">
+                                    <a href="#" class="footer__nav-elem-link">Franchise</a>
+                                </li>
+                                <li class="footer__nav-item-elem">
+                                    <a href="#" class="footer__nav-elem-link">Business</a>
+                                </li>
+                                <li class="footer__nav-item-elem">
+                                    <a href="#" class="footer__nav-elem-link">Restaurant signup</a>
+                                </li>
+                                <li class="footer__nav-item-elem">
+                                    <a href="#" class="footer__nav-elem-link">For Investors</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__nav-item">
+                            <ul class="footer__nav-item-list">
+                                <p class="footer__nav-item-tltle">Get help</p>
+                                <ul class="footer__nav-item-list">
+                                    <li class="footer__nav-item-elem">
+                                        <a href="#" class="footer__nav-elem-link">Read FAQs</a>
+                                    </li>
+                                    <li class="footer__nav-item-elem">
+                                        <a href="#" class="footer__nav-elem-link">Restaurants</a>
+                                    </li>
+                                    <li class="footer__nav-item-elem">
+                                        <a href="#" class="footer__nav-elem-link">Specialities</a>
+                                    </li>
+                                    <li class="footer__nav-item-elem">
+                                        <a href="#" class="footer__nav-elem-link">Sign up to deliver</a>
+                                    </li>
+                                    <li class="footer__nav-item-elem">
+                                        <form action="" method="get" class="footer__nav-item-form">
+                                            <select id="dropmenu-footer" name="language"
+                                                class="footer__nav-language-dropmenu">
+                                                <option id="dropmenu-footer" value="English">English</option>
+                                                <option id="dropmenu-footer" value="Russian">Русский</option>
+                                            </select>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li class="footer__nav-item">
+                            <p class="footer__nav-item-tltle">Contact us</p>
+                            <address class="footer__nav-item-addres">
+                                <span>Yellow kitchen Paris 11</span>
+                                <span>69 avenue de la Republique 75011 Paris</span>
+                            </address>
+                            <a href="tel:0800111126" class="footer__nav-item-tell">0800 111 126</a>
+                            <a href="mailto:contact@yellowkitchens.com"
+                                class="footer__nav-item_mail">contact@yellowkitchens.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__block">
+                <ul class="footer__social">
+                    <li class="footer-social-item">
+                        <img src="#" alt="Instagram" width="24" height="24" class="footer-social-image">
+                    </li>
+                    <li class="footer-social-item">
+                        <img src="#" alt="Twitter." width="24" height="24" class="footer-social-image">
+                    </li>
+                    <li class="footer-social-item">
+                        <img src="#" alt="Facebook" width="24" height="24" class="footer-social-image">
+                    </li>
+                </ul>
+                <p class="footer__copyright">
+                    <a href="#" class="footer__copyright-item">Privacy Policy</a>
+                    <a href="#" class="footer__copyright-item">Terms</a>
+                    <span class="footer__copyright-span">© 2020 Yellow kitchen</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
