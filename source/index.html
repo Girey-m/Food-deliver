@@ -17,13 +17,13 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <button class="header__button-logo">yellowkitchen</button>
+                <a href="#" class="header__logo link">yellowkitchen</a>
                 <ul class="header__menu-list">
-                    <li class="header__menu-item">
-                        <a href="#" class="header__item-log">log in</a>
+                    <li class="header__menu-item link">
+                        <a href="#" class="header__item-log link">log in</a>
                     </li>
-                    <li class="header__menu-item">
-                        <a href="#" class="header__item-cart">0</a>
+                    <li class="header__menu-item link">
+                        <a href="#" class="header__item-cart link">0</a>
                     </li>
                     <li class="header__menu-item">
                         <button class="header__item-burger">
@@ -35,33 +35,31 @@
                 </ul>
                 <div class="header__burger visually__hidden">
                     <nav class="header__nav">
-                        <p class="header__nav-block">
-                            <a href="tel:0800111126" class="header__nav-tel">0800 111 126</a>
-                        <p class="header__nav-time-block">
-                            <time class="header__nav-time" datetime="T08:00">8:00</time>-
-                            <time class="header__nav-time" datetime="T20:00">20:00</time>
-                        </p>
-                        </p>
+                        <div class="header__nav-block">
+                            <a href="tel:0800111126" class="header__nav-tel link">0800 111 126</a>
+                            <div class="header__nav-time-block">
+                                <time class="header__nav-time" datetime="T08:00">8:00</time>-
+                                <time class="header__nav-time" datetime="T20:00">20:00</time>
+                            </div>
+                        </div>
                         <ul class="header__nav-list">
                             <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link">Delivery info</a>
+                                <a href="#" class="header__item-nav-link link">Delivery info</a>
                             </li>
                             <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link">About us</a>
+                                <a href="#" class="header__item-nav-link link">About us</a>
                             </li>
                             <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link">Restaurants</a>
+                                <a href="#" class="header__item-nav-link link">Restaurants</a>
                             </li>
                             <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link">Specialities</a>
+                                <a href="#" class="header__item-nav-link link">Specialities</a>
                             </li>
                         </ul>
-                        <form action="" method="get" class="header__nav-form">
-                            <select id="dropmenu" name="language" class="header__nav-language-dropmenu">
-                                <option id="dropmenu" value="English">English</option>
-                                <option id="dropmenu" value="Russian">Русский</option>
-                            </select>
-                        </form>
+                        <select name="language" class="header__nav-language-dropmenu">
+                            <option value="English">English</option>
+                            <option value="Russian">Русский</option>
+                        </select>
                     </nav>
                 </div>
             </div>
@@ -69,21 +67,20 @@
     </header>
     <main class="main">
         <section class="presentation">
-            <h2 class="visually__hidden">Presentation</h2>
             <div class="container">
-                <p class="presentation__block">
-                <h2 class="presentation__title">Your Food court at home</h2>
-                <p class="presentation__order-way">
-                    <button class="presentation__way-button">
-                        <span class="presentation__way-title">Delivery</span>
-                        <span class="presentation__way-description">Order in</span>
-                    </button>
-                    <button class="presentation__way-button">
-                        <span class="presentation__way-title">Takeout</span>
-                        <span class="presentation__way-description">Grab and go</span>
-                    </button>
-                </p>
-                </p>
+                <div class="presentation__block">
+                    <h2 class="presentation__title">Your Food court at home</h2>
+                    <div class="presentation__order-way">
+                        <a class="presentation__way-link link" href="#">
+                            <span class="presentation__way-title">Delivery</span>
+                            <span class="presentation__way-description">Order in</span>
+                        </a>
+                        <a class="presentation__way-link link" href="#">
+                            <span class="presentation__way-title">Takeout</span>
+                            <span class="presentation__way-description">Grab and go</span>
+                        </a>
+                    </div>
+                </div>
                 <ul class="presentation__dignity-list">
                     <li class="presentation__dignity-item">
                         <img src="#" alt="Clock with hands in the form of cutlery." class="presentation__dignity-image"
@@ -110,94 +107,92 @@
             </div>
         </section>
         <section class="order-place">
-            <h2 class="visually__hidden">Order place</h2>
             <div class="container">
                 <div class="order-place__block">
                     <h2 class="order-place__title">Restaurants</h2>
-                    <button class="order-place__button">show all</button>
+                    <a class="order-place__link link" href="#">show all</a>
+                </div>
+                <div class="order-place__swiper">
+                    <div class="order-place__swiper-wrapper">
+                        <div class="order-place__swiper-slide">
+                            <img class="order-place__swiper-image" src="#" alt="Burger." width="296" height="184">
+                            <img class="order-place__swiper-logo" src="#" alt="Burger d'lince.">
+                        </div>
+                        <div class="order-place__swiper-slide">
+                            <img class="order-place__swiper-image" src="#" alt="Porridge." width="296" height="184">
+                            <img class="order-place__swiper-logo" src="#" alt="Pastifigio.">
+                        </div>
+                        <div class="order-place__swiper-slide">
+                            <img class="order-place__swiper-image" src="#" alt="Salad." width="296" height="184">
+                            <img class="order-place__swiper-logo" src="#" alt="Bilieve.">
+                        </div>
+                        <div class="order-place__swiper-slide">
+                            <img class="order-place__swiper-image" src="#" alt="Meat salad." width="296" height="184">
+                            <img class="order-place__swiper-logo" src="#" alt="Xbo.">
+                        </div>
+                    </div>
+                    <div class="order-place__swipe-next"></div>
+                    <div class="order-place__swipe-prev"></div>
                 </div>
                 <div class="order-place__block">
-                    <button class="order-place__swipe-left"></button>
-                    <ul class="order-place__list">
-                        <li class="order-place__item">
-                            <img class="order-place__item-image" src="#" alt="Burger." width="296" height="184">
-                            <img class="order-place__item-logo" src="#" alt="Burger d'lince.">
-                        </li>
-                        <li class="order-place__item">
-                            <img class="order-place__item-image" src="#" alt="Porridge." width="296" height="184">
-                            <img class="order-place__item-logo" src="#" alt="Pastifigio.">
-                        </li>
-                        <li class="order-place__item">
-                            <img class="order-place__item-image" src="#" alt="Salad." width="296" height="184">
-                            <img class="order-place__item-logo" src="#" alt="Bilieve.">
-                        </li>
-                        <li class="order-place__item">
-                            <img class="order-place__item-image" src="#" alt="Meat salad." width="296" height="184">
-                            <img class="order-place__item-logo" src="#" alt="Xbo.">
-                        </li>
-                    </ul>
-                    <button class="order-place__swipe-right"></button>
-                </div>
-                <div class="order-place__block">
-                    <p class="order-place__text">
-                    <h2 class="order-place__title">Your nearest restaurants</h2>
-                    <p class="order-place__description">
-                        Each kitchen works with its own delivery area to deliver food to
-                        you as soon as possible
-                    </p>
-                    </p>
+                    <div class="order-place__text">
+                        <p class="order-place__title">Your nearest restaurants</p>
+                        <p class="order-place__description">
+                            Each kitchen works with its own delivery area to deliver food to
+                            you as soon as possible
+                        </p>
+                    </div>
                     <form action="" method="get" class="order-place__form">
                         <input type="text" placeholder="Enter delivery address" id="address"
-                            class="order-place__form-input" required>
+                            class="order-place__form-input" name="deliver-address" required>
                         <button type="submit" class="order-place__form-button">send</button>
                     </form>
                 </div>
             </div>
         </section>
         <section class="specialization">
-            <h2 class="visually__hidden">Specialization</h2>
             <div class="container">
                 <div class="specialization__block">
                     <h2 class="specialization__title">Specialities</h2>
-                    <button class="specialization__button">show all</button>
+                    <a class="specialization__button link" href="#">show all</a>
                 </div>
-                <div class="specialization__block">
-                    <button class="specialization__swipe-left"></button>
-                    <ul class="order-place__list">
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Bagel." width="48" height="48">
-                            <p class="specialization__item-title">Bagel</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Burger." width="48" height="48">
-                            <p class="specialization__item-title">Burger</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Chicken." width="48" height="48">
-                            <p class="specialization__item-title">Chicken</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Fish." width="48" height="48">
-                            <p class="specialization__item-title">Fish</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Fish’Chips." width="48" height="48">
-                            <p class="specialization__item-title">Fish’Chips</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Salads." width="48" height="48">
-                            <p class="specialization__item-title">Salads</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Pizza." width="48" height="48">
-                            <p class="specialization__item-title">Pizza</p>
-                        </li>
-                        <li class="specialization__item">
-                            <img class="specialization__item-image" src="#" alt="Pasta." width="48" height="48">
-                            <p class="specialization__item-title">Pasta</p>
-                        </li>
-                    </ul>
-                    <button class="specialization__swipe-right"></button>
+                <div class="specialization__swiper">
+                    <div class="order-place__swiper-wrapper">
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Bagel." width="48" height="48">
+                            <p class="specialization__swiper-title">Bagel</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Burger." width="48" height="48">
+                            <p class="specialization__swiper-title">Burger</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Chicken." width="48" height="48">
+                            <p class="specialization__swiper-title">Chicken</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Fish." width="48" height="48">
+                            <p class="specialization__swiper-title">Fish</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Fish’Chips." width="48" height="48">
+                            <p class="specialization__swiper-title">Fish’Chips</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Salads." width="48" height="48">
+                            <p class="specialization__swiper-title">Salads</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Pizza." width="48" height="48">
+                            <p class="specialization__swiper-title">Pizza</p>
+                        </div>
+                        <div class="specialization__swiper-slide">
+                            <img class="specialization__swiper-image" src="#" alt="Pasta." width="48" height="48">
+                            <p class="specialization__swiper-title">Pasta</p>
+                        </div>
+                    </div>
+                    <div class="specialization__swipe-next"></div>
+                    <div class="specialization__swipe-prev"></div>
                 </div>
             </div>
         </section>
@@ -230,9 +225,8 @@
             </div>
         </section>
         <section class="instagram">
-            <h2 class="visually__hidden">YellowKitchens in instagram</h2>
             <div class="container">
-                <h2 class="instagram__titel">#YellowKitchens in instagram</h2>
+                <h2 class="instagram__titel"><span>#YellowKitchens</span> in instagram</h2>
                 <ul class="instagram__list">
                     <li class="instagram__list-item">
                         <img src="#" alt="Kitchen." width="296" height="299">
@@ -254,13 +248,17 @@
         <div class="container">
             <div class="footer__block">
                 <div class="footer__apps">
-                    <button class="footer__button-logo">yellowkitchen</button>
+                    <a href="#" class="footer__button-logo link">yellowkitchen</a>
                     <ul class="footer__apps-list">
                         <li class="footer__apps-item">
-                            <img src="#" alt="App store." width="79" height="28">
+                            <a href="#" class="footer__apps-item-link link">
+                                <img src="#" alt="App store." width="79" height="28">
+                            </a>
                         </li>
                         <li class="footer__apps-item">
-                            <img src="#" alt="Google play." width="79" height="28">
+                            <a href="#" class="footer__apps-item-link link">
+                                <img src="#" alt="Google play." width="79" height="28">
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -270,19 +268,19 @@
                             <p class="footer__nav-item-tltle">About us</p>
                             <ul class="footer__nav-item-list">
                                 <li class="footer__nav-item-elem">
-                                    <a href="#" class="footer__nav-elem-link">Concept</a>
+                                    <a href="#" class="footer__nav-elem-link link">Concept</a>
                                 </li>
                                 <li class="footer__nav-item-elem">
-                                    <a href="#" class="footer__nav-elem-link">Franchise</a>
+                                    <a href="#" class="footer__nav-elem-link link">Franchise</a>
                                 </li>
                                 <li class="footer__nav-item-elem">
-                                    <a href="#" class="footer__nav-elem-link">Business</a>
+                                    <a href="#" class="footer__nav-elem-link link">Business</a>
                                 </li>
                                 <li class="footer__nav-item-elem">
-                                    <a href="#" class="footer__nav-elem-link">Restaurant signup</a>
+                                    <a href="#" class="footer__nav-elem-link link">Restaurant signup</a>
                                 </li>
                                 <li class="footer__nav-item-elem">
-                                    <a href="#" class="footer__nav-elem-link">For Investors</a>
+                                    <a href="#" class="footer__nav-elem-link link">For Investors</a>
                                 </li>
                             </ul>
                         </li>
@@ -291,25 +289,22 @@
                                 <p class="footer__nav-item-tltle">Get help</p>
                                 <ul class="footer__nav-item-list">
                                     <li class="footer__nav-item-elem">
-                                        <a href="#" class="footer__nav-elem-link">Read FAQs</a>
+                                        <a href="#" class="footer__nav-elem-link link">Read FAQs</a>
                                     </li>
                                     <li class="footer__nav-item-elem">
-                                        <a href="#" class="footer__nav-elem-link">Restaurants</a>
+                                        <a href="#" class="footer__nav-elem-link link">Restaurants</a>
                                     </li>
                                     <li class="footer__nav-item-elem">
-                                        <a href="#" class="footer__nav-elem-link">Specialities</a>
+                                        <a href="#" class="footer__nav-elem-link link">Specialities</a>
                                     </li>
                                     <li class="footer__nav-item-elem">
-                                        <a href="#" class="footer__nav-elem-link">Sign up to deliver</a>
+                                        <a href="#" class="footer__nav-elem-link link">Sign up to deliver</a>
                                     </li>
                                     <li class="footer__nav-item-elem">
-                                        <form action="" method="get" class="footer__nav-item-form">
-                                            <select id="dropmenu-footer" name="language"
-                                                class="footer__nav-language-dropmenu">
-                                                <option id="dropmenu-footer" value="English">English</option>
-                                                <option id="dropmenu-footer" value="Russian">Русский</option>
-                                            </select>
-                                        </form>
+                                        <select name="language" class="footer__nav-language-dropmenu">
+                                            <option value="English">English</option>
+                                            <option value="Russian">Русский</option>
+                                        </select>
                                     </li>
                                 </ul>
                             </ul>
@@ -320,9 +315,9 @@
                                 <span>Yellow kitchen Paris 11</span>
                                 <span>69 avenue de la Republique 75011 Paris</span>
                             </address>
-                            <a href="tel:0800111126" class="footer__nav-item-tell">0800 111 126</a>
+                            <a href="tel:0800111126" class="footer__nav-item-tell link">0800 111 126</a>
                             <a href="mailto:contact@yellowkitchens.com"
-                                class="footer__nav-item_mail">contact@yellowkitchens.com</a>
+                                class="footer__nav-item_mail link">contact@yellowkitchens.com</a>
                         </li>
                     </ul>
                 </div>
@@ -340,8 +335,8 @@
                     </li>
                 </ul>
                 <p class="footer__copyright">
-                    <a href="#" class="footer__copyright-item">Privacy Policy</a>
-                    <a href="#" class="footer__copyright-item">Terms</a>
+                    <a href="#" class="footer__copyright-item link">Privacy Policy</a>
+                    <a href="#" class="footer__copyright-item link">Terms</a>
                     <span class="footer__copyright-span">© 2020 Yellow kitchen</span>
                 </p>
             </div>
