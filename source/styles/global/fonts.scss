@@ -1,9 +1,15 @@
 /* здесь подключите шрифты*/
-@include font-face("Montserrat", 400, normal, url("../../fonts/Montserrat/Montserrat_regular.woff") format("woff"));
-@include font-face("Montserrat", 400, normal, url("../../fonts/Montserrat/Montserrat_regular.woff2") format("woff"));
-@include font-face("Montserrat", 600, normal, url("../../fonts/Montserrat/Montserrat_semibold.woff") format("woff2"));
-@include font-face("Montserrat", 600, normal, url("../../fonts/Montserrat/Montserrat_semibold.woff2") format("woff2"));
-@include font-face("Montserrat", 700, normal, url("../../fonts/Montserrat/Montserrat_bold.woff") format("woff"));
-@include font-face("Montserrat", 700, normal, url("../../fonts/Montserrat/Montserrat_bold.woff2") format("woff2"));
-@include font-face("maki", 500, normal, url("../../fonts/Maki/maki.woff2") format("woff2"));
-@include font-face("maki", 500, normal, url("../../fonts/Maki/maki.woff") format("woff"));
+@include font-face("Martel Sans", 400, normal, url("../../../source/fonts/MartelSans-Regular.woff2") format("woff2"));
+@include font-face("Martel Sans", 300, normal, url("../../../source/fonts/MartelSans-Light.woff2") format("woff2"));
+@include font-face("Martel Sans", 700, normal, url("../../../source/fonts/MartelSans-Bold.woff2") format("woff2"));
+@include font-face("Martel Sans", 800, normal, url("../../../source/fonts/MartelSans-ExtraBold.woff2") format("woff2"));
+@include font-face("Poppins", 300, normal, url("../../../source/fonts/Poppins-Light.woff2") format("woff2"));
+@include font-face("Poppins", 400, normal, url("../../../source/fonts/Poppins-Regular.woff2") format("woff2"));
+@include font-face("Poppins", 600, normal, url("../../../source/fonts/Poppins-SemiBold.woff2") format("woff2"));
+@include font-face("Poppins", 700, normal, url("../../../source/fonts/Poppins-Bold.woff2") format("woff2"));
+
+// @include font-face("Montserrat", 600, normal, url("../../fonts/Montserrat/Montserrat_semibold.woff2") format("woff2"));
+// @include font-face("Montserrat", 700, normal, url("../../fonts/Montserrat/Montserrat_bold.woff") format("woff"));
+// @include font-face("Montserrat", 700, normal, url("../../fonts/Montserrat/Montserrat_bold.woff2") format("woff2"));
+// @include font-face("maki", 500, normal, url("../../fonts/Maki/maki.woff2") format("woff2"));
+// @include font-face("maki", 500, normal, url("../../fonts/Maki/maki.woff") format("woff"));
