@@ -1,12 +1,12 @@
 /* здесь подключите шрифты*/
-@include font-face("Martel Sans", 400, normal, url("../../../source/fonts/MartelSans-Regular.woff2") format("woff2"));
-@include font-face("Martel Sans", 300, normal, url("../../../source/fonts/MartelSans-Light.woff2") format("woff2"));
-@include font-face("Martel Sans", 700, normal, url("../../../source/fonts/MartelSans-Bold.woff2") format("woff2"));
-@include font-face("Martel Sans", 800, normal, url("../../../source/fonts/MartelSans-ExtraBold.woff2") format("woff2"));
-@include font-face("Poppins", 300, normal, url("../../../source/fonts/Poppins-Light.woff2") format("woff2"));
-@include font-face("Poppins", 400, normal, url("../../../source/fonts/Poppins-Regular.woff2") format("woff2"));
-@include font-face("Poppins", 600, normal, url("../../../source/fonts/Poppins-SemiBold.woff2") format("woff2"));
-@include font-face("Poppins", 700, normal, url("../../../source/fonts/Poppins-Bold.woff2") format("woff2"));
+@include font-face("Martel Sans", 400, normal, url("../../fonts/martel-sans/MartelSans-Regular.woff2") format("woff2"));
+@include font-face("Martel Sans", 300, normal, url("../../fonts/martel-sans/MartelSans-Light.woff2") format("woff2"));
+@include font-face("Martel Sans", 700, normal, url("../../fonts/martel-sans/MartelSans-Bold.woff2") format("woff2"));
+@include font-face("Martel Sans", 900, normal, url("../../fonts/martel-sans/MartelSans-ExtraBold.woff2") format("woff2"));
+@include font-face("Poppins", 300, normal, url("../../fonts/poppins/Poppins-Light.woff2") format("woff2"));
+@include font-face("Poppins", 600, normal, url("../../fonts/poppins/Poppins-SemiBold.woff2") format("woff2"));
+@include font-face("Poppins", 700, normal, url("../../fonts/poppins/Poppins-Bold.woff2") format("woff2"));
+@include font-face("Poppins", 400, normal, url("../../fonts/poppins/Poppins-Regular.woff2") format("woff2"));
 
 // @include font-face("Montserrat", 600, normal, url("../../fonts/Montserrat/Montserrat_semibold.woff2") format("woff2"));
 // @include font-face("Montserrat", 700, normal, url("../../fonts/Montserrat/Montserrat_bold.woff") format("woff"));
