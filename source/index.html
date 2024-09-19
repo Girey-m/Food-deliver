@@ -5,21 +5,44 @@
     <meta charset="UTF-8">
     <title>Brunt</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <link rel="preload" href="/fonts/poppins/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/poppins/Poppins-Light.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="favicons/180.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <script src="scripts/index.js" defer></script>
+    <script src="/scripts/index.js" defer></script>
 </head>
+<!-- <img
+class="order-place__swiper-image"
+src="#"
+alt="Burger."
+width="296"
+height="184"
+>
+<picture>
+<source media="(min-width: 1024px)" srcset="/images/order-place-dish-1@1x.webp 1x,  /images/order-place-dish-1@2x.webp 2x">
+<source media="(min-width: 768px)" srcset="/images/order-place-dish-1@1x.png 1x,  /images/order-place-dish-1@2x.png 2x">
+<img
+    src="/images/order-place-dish-1@1x.png"
+    srcset="/images/order-place-dish-1@1x.png 1x, /images/order-place-dish-1@2x.png 2x"
+    width="226"
+    height="30"
+    alt="Burgers of D'Lice."
+>
+</picture>
+<svg aria-hidden="true">
+<use href="/images/icons/stack.svg#order-place-restauran-logo-2"></use>
+</svg> -->
 
 <body class="page__body">
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a href="#" class="header__logo link">yellowkitchen</a>
+                <a href="#" class="header__logo link"><svg aria-hidden="true">
+                        <use href="/images/icons/stack.svg#logo"></use>
+                    </svg></a>
                 <ul class="header__menu-list">
                     <li class="header__menu-item link">
                         <a href="#" class="header__item-log link">log in</a>
@@ -85,22 +108,25 @@
                 </div>
                 <ul class="presentation__dignity-list">
                     <li class="presentation__dignity-item">
-                        <img src="#" alt="Clock with hands in the form of cutlery." class="presentation__dignity-image"
-                            width="48" height="48">
+                        <svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#presentation-list-item-1"></use>
+                        </svg>
                         <p class="presentation__dignity-text">
                             delivery in all paris in less than 30 minutes
                         </p>
                     </li>
                     <li class="presentation__dignity-item">
-                        <img src="#" alt="Courier on a moped." class="presentation__dignity-image" width="48"
-                            height="48">
+                        <svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#presentation-list-item-2"></use>
+                        </svg>
                         <p class="presentation__dignity-text">
                             Free delivery from 29 euros
                         </p>
                     </li>
                     <li class="presentation__dignity-item">
-                        <img src="#" alt="Eiffel Tower inside a heart." class="presentation__dignity-image" width="48"
-                            height="48">
+                        <svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#presentation-list-item-3"></use>
+                        </svg>
                         <p class="presentation__dignity-text">
                             Only fresh and French products
                         </p>
@@ -114,27 +140,67 @@
                     <h2 class="order-place__title">Restaurants</h2>
                     <a class="order-place__link link" href="#">show all</a>
                 </div>
-                <div class="order-place__swiper">
-                    <div class="order-place__swiper-wrapper">
-                        <div class="order-place__swiper-slide">
-                            <img class="order-place__swiper-image" src="#" alt="Burger." width="296" height="184">
-                            <img class="order-place__swiper-logo" src="#" alt="Burger d'lince.">
+                <div class="order-place__swiper swiper">
+                    <div class="order-place__swiper-wrapper swiper-wrapper">
+                        <div class="order-place__swiper-slide swiper-slide">
+                            <picture>
+                                <source media="(min-width: 1024px)"
+                                    srcset="/images/order-place-dish-1@1x.webp 1x,  /images/order-place-dish-1@2x.webp 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="/images/order-place-dish-1@1x.png 1x,  /images/order-place-dish-1@2x.png 2x">
+                                <img src="/images/order-place-dish-1@1x.png"
+                                    srcset="/images/order-place-dish-1@1x.png 1x, /images/order-place-dish-1@2x.png 2x"
+                                    width="226" height="30" alt="Burgers of D'Lice.">
+                            </picture>
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#order-place-restauran-logo-1"></use>
+                            </svg>
                         </div>
-                        <div class="order-place__swiper-slide">
-                            <img class="order-place__swiper-image" src="#" alt="Porridge." width="296" height="184">
-                            <img class="order-place__swiper-logo" src="#" alt="Pastifigio.">
+                        <div class="order-place__swiper-slide swiper-slide">
+                            <picture>
+                                <source media="(min-width: 1024px)"
+                                    srcset="/images/order-place-dish-2@1x.webp 1x,  /images/order-place-dish-2@2x.webp 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="/images/order-place-dish-2@1x.png 1x,  /images/order-place-dish-2@2x.png 2x">
+                                <img src="/images/order-place-dish-2@1x.png"
+                                    srcset="/images/order-place-dish-2@1x.png 1x, /images/order-place-dish-2@2x.png 2x"
+                                    width="226" height="30" alt="Burgers of D'Lice.">
+                            </picture>
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#order-place-restauran-logo-2"></use>
+                            </svg>
                         </div>
-                        <div class="order-place__swiper-slide">
-                            <img class="order-place__swiper-image" src="#" alt="Salad." width="296" height="184">
-                            <img class="order-place__swiper-logo" src="#" alt="Bilieve.">
+                        <div class="order-place__swiper-slide swiper-slide">
+                            <picture>
+                                <source media="(min-width: 1024px)"
+                                    srcset="/images/order-place-dish-3@1x.webp 1x,  /images/order-place-dish-3@2x.webp 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="/images/order-place-dish-3@1x.png 1x,  /images/order-place-dish-3@2x.png 2x">
+                                <img src="/images/order-place-dish-2@1x.png"
+                                    srcset="/images/order-place-dish-3@1x.png 1x, /images/order-place-dish-3@2x.png 2x"
+                                    width="226" height="30" alt="Burgers of D'Lice.">
+                            </picture>
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#order-place-restauran-logo-3"></use>
+                            </svg>
                         </div>
-                        <div class="order-place__swiper-slide">
-                            <img class="order-place__swiper-image" src="#" alt="Meat salad." width="296" height="184">
-                            <img class="order-place__swiper-logo" src="#" alt="Xbo.">
+                        <div class="order-place__swiper-slide swiper-slide">
+                            <picture>
+                                <source media="(min-width: 1024px)"
+                                    srcset="/images/order-place-dish-4@1x.webp 1x,  /images/order-place-dish-4@2x.webp 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="/images/order-place-dish-4@1x.png 1x,  /images/order-place-dish-4@2x.png 2x">
+                                <img src="/images/order-place-dish-2@1x.png"
+                                    srcset="/images/order-place-dish-4@1x.png 1x, /images/order-place-dish-4@2x.png 2x"
+                                    width="226" height="30" alt="Burgers of D'Lice.">
+                            </picture>
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#order-place-restauran-logo-4"></use>
+                            </svg>
                         </div>
                     </div>
-                    <div class="order-place__swipe-next"></div>
-                    <div class="order-place__swipe-prev"></div>
+                    <div class="order-place__swipe-next swiper-button-next"></div>
+                    <div class="order-place__swipe-prev swiper-button-prev"></div>
                 </div>
                 <div class="order-place__block">
                     <div class="order-place__text">
@@ -158,43 +224,59 @@
                     <h2 class="specialization__title">Specialities</h2>
                     <a class="specialization__button link" href="#">show all</a>
                 </div>
-                <div class="specialization__swiper">
-                    <div class="order-place__swiper-wrapper">
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Bagel." width="48" height="48">
+                <div class="specialization__swiper swiper">
+                    <div class="order-place__swiper-wrapper swiper-wrapper">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-1"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Bagel</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Burger." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-2"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Burger</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Chicken." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-3"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Chicken</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Fish." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-4"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Fish</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Fish’Chips." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-5"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Fish’Chips</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Salads." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-6"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Salads</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Pizza." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-7"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Pizza</p>
                         </div>
-                        <div class="specialization__swiper-slide">
-                            <img class="specialization__swiper-image" src="#" alt="Pasta." width="48" height="48">
+                        <div class="specialization__swiper-slide swiper-slide">
+                            <svg aria-hidden="true">
+                                <use href="/images/icons/stack.svg#specialities-8"></use>
+                            </svg>
                             <p class="specialization__swiper-title">Pasta</p>
                         </div>
                     </div>
-                    <div class="specialization__swipe-next"></div>
-                    <div class="specialization__swipe-prev"></div>
+                    <div class="specialization__swipe-next swiper-button-next"></div>
+                    <div class="specialization__swipe-prev swiper-button-prev"></div>
                 </div>
             </div>
         </section>
@@ -231,16 +313,48 @@
                 <h2 class="instagram__titel"><span>#YellowKitchens</span> in instagram</h2>
                 <ul class="instagram__list">
                     <li class="instagram__list-item">
-                        <img src="#" alt="Kitchen." width="296" height="299">
+                        <picture>
+                            <source media="(min-width: 1024px)"
+                                srcset="/images/instagram-image-1@1x.webp 1x,  /images/instagram-image-1@2x.webp 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="/images/instagram-image-1@1x.png 1x,  /images/instagram-image-1@2x.png 2x">
+                            <img src="/images/instagram-image-1@1x.png"
+                                srcset="/images/instagram-image-1@1x.png 1x, /images/instagram-image-1@2x.png 2x"
+                                width="296" height="299" alt="Restaurant.">
+                        </picture>
                     </li>
                     <li class="instagram__list-item">
-                        <img src="#" alt="Two people." width="296" height="299">
+                        <picture>
+                            <source media="(min-width: 1024px)"
+                                srcset="/images/instagram-image-2@1x.webp 1x,  /images/instagram-image-2@2x.webp 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="/images/instagram-image-2@1x.png 1x,  /images/instagram-image-2@2x.png 2x">
+                            <img src="/images/instagram-image-2@1x.png"
+                                srcset="/images/instagram-image-2@1x.png 1x, /images/instagram-image-2@2x.png 2x"
+                                width="296" height="299" alt="Restaurant.">
+                        </picture>
                     </li>
                     <li class="instagram__list-item">
-                        <img src="#" alt="Cook." width="296" height="299">
+                        <picture>
+                            <source media="(min-width: 1024px)"
+                                srcset="/images/instagram-image-3@1x.webp 1x,  /images/instagram-image-3@2x.webp 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="/images/instagram-image-3@1x.png 1x,  /images/instagram-image-3@2x.png 2x">
+                            <img src="/images/instagram-image-3@1x.png"
+                                srcset="/images/instagram-image-3@1x.png 1x, /images/instagram-image-3@2x.png 2x"
+                                width="296" height="299" alt="Restaurant.">
+                        </picture>
                     </li>
                     <li class="instagram__list-item">
-                        <img src="#" alt="Salad." width="296" height="299">
+                        <picture>
+                            <source media="(min-width: 1024px)"
+                                srcset="/images/instagram-image-4@1x.webp 1x,  /images/instagram-image-4@2x.webp 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="/images/instagram-image-4@1x.png 1x,  /images/instagram-image-4@2x.png 2x">
+                            <img src="/images/instagram-image-4@1x.png"
+                                srcset="/images/instagram-image-4@1x.png 1x, /images/instagram-image-4@2x.png 2x"
+                                width="296" height="299" alt="Restaurant.">
+                        </picture>
                     </li>
                 </ul>
             </div>
@@ -250,16 +364,34 @@
         <div class="container">
             <div class="footer__block">
                 <div class="footer__apps">
-                    <a href="#" class="footer__button-logo link">yellowkitchen</a>
+                    <a href="#" class="footer__button-logo link"><svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#logo"></use>
+                        </svg></a>
                     <ul class="footer__apps-list">
                         <li class="footer__apps-item">
                             <a href="#" class="footer__apps-item-link link">
-                                <img src="#" alt="App store." width="79" height="28">
+                                <picture>
+                                    <source media="(min-width: 1024px)"
+                                        srcset="/images/footer-app-1@1x.webp 1x,  /images/footer-app-1@2x.webp 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="/images/footer-app-1@1x.png 1x,  /images/footer-app-1@2x.png 2x">
+                                    <img src="/images/ofooter-app-1@1x.png"
+                                        srcset="/images/footer-app-1@1x.png 1x, /images/footer-app-1@2x.png 2x"
+                                        alt="App store." width="79" height="28">
+                                </picture>
                             </a>
                         </li>
                         <li class="footer__apps-item">
                             <a href="#" class="footer__apps-item-link link">
-                                <img src="#" alt="Google play." width="79" height="28">
+                                <picture>
+                                    <source media="(min-width: 1024px)"
+                                        srcset="/images/footer-app-2@1x.webp 1x,  /images/footer-app-2@2x.webp 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="/images/footer-app-2@1x.png 1x,  /images/footer-app-2@2x.png 2x">
+                                    <img src="/images/ofooter-app-1@1x.png"
+                                        srcset="/images/footer-app-2@1x.png 1x, /images/footer-app-2@2x.png 2x"
+                                        alt="Google play." width="79" height="28">
+                                </picture>
                             </a>
                         </li>
                     </ul>
@@ -327,13 +459,19 @@
             <div class="footer__block">
                 <ul class="footer__social">
                     <li class="footer-social-item">
-                        <img src="#" alt="Instagram" width="24" height="24" class="footer-social-image">
+                        <svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#footer-social-item-1"></use>
+                        </svg>
                     </li>
                     <li class="footer-social-item">
-                        <img src="#" alt="Twitter." width="24" height="24" class="footer-social-image">
+                        <svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#footer-social-item-2"></use>
+                        </svg>
                     </li>
                     <li class="footer-social-item">
-                        <img src="#" alt="Facebook" width="24" height="24" class="footer-social-image">
+                        <svg aria-hidden="true">
+                            <use href="/images/icons/stack.svg#footer-social-item-3"></use>
+                        </svg>
                     </li>
                 </ul>
                 <p class="footer__copyright">
