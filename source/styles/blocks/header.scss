@@ -102,7 +102,7 @@
     background-color: #9093A6;
 }
 
-.header__burger-span::before {
+.header__burger-span::before.visually__hidden {
     content: '';
     display: block;
     position: absolute;
