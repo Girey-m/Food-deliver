@@ -19,51 +19,54 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a href="#" class="header__logo link"><svg aria-hidden="true">
+                <a href="#" class="header__logo link"><svg aria-hidden="true" class="header__logo-svg">
                         <use href="/images/icons/stack.svg#logo"></use>
                     </svg></a>
                 <ul class="header__menu-list">
                     <li class="header__menu-item link">
-                        <a href="#" class="header__item-log link">log in</a>
+                        <a href="#" class="header__item-log link">Log in</a>
                     </li>
                     <li class="header__menu-item link">
                         <a href="#" class="header__item-cart link">0</a>
                     </li>
                     <li class="header__menu-item">
                         <button class="header__item-burger">
+
                             <span class="header__burger-span"></span>
-                            <span class="header__burger-span"></span>
-                            <span class="header__burger-span"></span>
+
                         </button>
                     </li>
                 </ul>
                 <div class="header__burger visually__hidden">
-                    <nav class="header__nav">
-                        <div class="header__nav-block">
-                            <a href="tel:0800111126" class="header__nav-tel link">0800 111 126</a>
-                            <div class="header__nav-time-block">
-                                <time class="header__nav-time" datetime="T08:00">8:00</time>-
-                                <time class="header__nav-time" datetime="T20:00">20:00</time>
+                    <nav class="navigation">
+                        <div class="navigation__block">
+                            <a href="tel:0800111126" class="navigation__tel link">0800 111 126</a>
+                            <div class="navigation__time-block">
+                                <time class="navigation__time" datetime="T08:00">8:00</time> -
+                                <time class="navigation__time" datetime="T20:00">20:00</time>
                             </div>
                         </div>
-                        <ul class="header__nav-list">
-                            <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link link">Delivery info</a>
+                        <ul class="navigation__list">
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__item-nav-link link">Delivery info</a>
                             </li>
-                            <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link link">About us</a>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__item-nav-link link">About us</a>
                             </li>
-                            <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link link">Restaurants</a>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__item-nav-link link">Restaurants</a>
                             </li>
-                            <li class="header__nav-list-item">
-                                <a href="#" class="header__item-nav-link link">Specialities</a>
+                            <li class="navigation__list-item">
+                                <a href="#" class="navigation__item-nav-link link">Specialities</a>
                             </li>
                         </ul>
-                        <select name="language" class="header__nav-language-dropmenu">
-                            <option value="English">English</option>
-                            <option value="Russian">Русский</option>
-                        </select>
+                        <div class="navigation__select">
+                            <span class="navigation__arrow"></span>
+                            <select name="language" class="navigation__language-dropmenu">
+                                <option value="English">English</option>
+                                <option value="Russian">Русский</option>
+                            </select>
+                        </div>
                     </nav>
                 </div>
             </div>
