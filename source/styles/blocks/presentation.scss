@@ -1,0 +1,7 @@
+.presentation {
+  background-image: image-set("/images/presentation-bg@1x.webp" type("image/webp") 1x,
+      "/images/presentation-bg@2x.webp" type("image/webp") 2x,
+      "/images/presentation-bg@1x.png" type("image/png") 1x,
+      "/images/presentation-bg@2x.png" type("image/png") 2x,
+    );
+}
