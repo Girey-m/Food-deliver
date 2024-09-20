@@ -1,6 +1,3 @@
-const burgerButton = document.querySelector('.header__item-burger');
-const burgerMenu = document.querySelector('.header__burger');
+import { initBurgerMenu } from "./modules/burger-menu";
 
-burgerButton.addEventListener('click', () => {
-    burgerMenu.classList.toggle('visually__hidden')
-});
+initBurgerMenu();

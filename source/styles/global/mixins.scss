@@ -8,6 +8,16 @@
   }
 }
 
+@mixin bg-image ($pos, $img) {
+  background-image: image-set("/images/#{$img}@1x.webp" type("image/webp") 1x,
+    "/images/#{$img}@2x.webp" type("image/webp") 2x,
+    "/images/#{$img}@1x.png" type("image/png") 1x,
+    "/images/#{$img}@2x.png" type("image/png") 2x,
+  );
+  background-repeat: no-repeat;
+  background-position: $pos;
+}
+
 @mixin normalize-list {
   margin: 0;
   padding: 0;

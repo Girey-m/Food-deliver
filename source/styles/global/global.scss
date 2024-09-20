@@ -199,3 +199,39 @@ img {
 .green-text {
   color: greenyellow;
 }
+
+
+.visually__hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.costume-line-one {
+  background-color: #9093A6;
+}
+
+.costume-line-two {
+  background-color: #9093A6;
+}
+
+.costume-line-three {
+  background-color: #9093A6;
+}
+
+.open-burger-two {
+  transform: translateY(9px) translateX(0px) rotate(45deg);
+  background-color: red;
+  opacity: .9;
+  transition: transform .5s, opacity .5s, background-color .5s;
+
+}
+
+.open-burger-three {
+  transform: translateY(-10px) translateX(0px) rotate(-45deg);
+  background-color: red;
+  opacity: .9;
+  transition: transform .5s, opacity .5s, background-color .5s;
+}
