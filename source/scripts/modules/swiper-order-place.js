@@ -13,37 +13,68 @@
 //     });
 // };
 
-import { Navigation, Pagination } from 'swiper/modules';
+// import Swiper from 'swiper';
+// import 'swiper/css';
+// import { Navigation } from 'swiper/modules';
 
-// import Swiper JS
+// export function initOrderSwiper() {
+//     const swiper = new Swiper('.swiper', {
+//         direction: 'horizontal',
+//         modules: [Navigation],
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev',
+//         },
+//     });
+// }
+
 import Swiper from 'swiper';
-// import Swiper styles
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css';
 
-export const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    modules: [Navigation, Pagination],
-    direction: 'horizontal',
-    loop: true,
+export function initOrderSwiper() {
+    const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        modules: [Navigation],
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+}
 
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+// import { Navigation, Pagination } from 'swiper/modules';
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+// // import Swiper JS
+// import Swiper from 'swiper';
+// // import Swiper styles
+// import 'swiper/css';
 
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+// import 'swiper/css';
+
+// export const swiper = new Swiper('.swiper', {
+//     // Optional parameters
+//     modules: [Navigation, Pagination],
+//     direction: 'horizontal',
+//     loop: true,
+
+//     // If we need pagination
+//     pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//     },
+
+//     // Navigation arrows
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+
+//     // And if we need scrollbar
+//     scrollbar: {
+//         el: '.swiper-scrollbar',
+//     },
+// });
