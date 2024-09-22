@@ -1,0 +1,71 @@
+.specialization {
+    .container {
+        display: grid;
+        padding-top: 72px;
+        padding-bottom: 72px;
+        gap: 48px;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin: 0;
+        font-family: $secondary-font;
+        font-size: 36px;
+        line-height: 64px;
+        letter-spacing: 1.8px;
+        font-weight: 300;
+        color: $grey-dark;
+    }
+
+    &__link {
+        display: flex;
+        color: $grey-secondary;
+        background-color: $grey-bg;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        height: 48px;
+        width: 118px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    &__swiper-wrapper {
+        display: flex;
+        gap: 24px;
+        justify-content: space-around;
+    }
+
+    &__swiper-slide {
+        display: grid;
+        grid-template-columns: 136px;
+        gap: 16px;
+        padding-top: 24px;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+
+    }
+
+    svg {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+
+    }
+
+    &__swiper-title {
+        margin: 0 auto;
+        padding-bottom: 24px;
+        color: #313030;
+        font-family: $primary-font;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+}

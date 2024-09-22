@@ -1,0 +1,112 @@
+.footer {
+    background-color: $grey-dark;
+
+    .container {
+        display: grid;
+        gap: 49px;
+        padding-bottom: 48px;
+        padding-left: 92px;
+        padding-right: 88px;
+        color: $grey-light;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__apps {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    &__button-logo {
+        display: block;
+        height: 24px;
+    }
+
+    &__button-logo>svg {
+        width: 184px;
+        height: 24px;
+    }
+
+
+    &__apps-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 9px;
+    }
+
+    &__apps-item {
+        width: 87px;
+        height: 28px;
+    }
+
+    &__apps-item-link {
+        display: block;
+        width: 87px;
+        height: 28px;
+    }
+
+    &__apps-item-link>picture {
+        display: block;
+        width: 87px;
+        height: 28px;
+    }
+
+
+
+    &__nav-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    &__nav-item {
+        display: grid;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__nav-item-tltle {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__nav-item-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+    }
+
+    &__social {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+        height: 24px;
+        margin-top: 30px;
+    }
+
+    &__social-item {
+        height: 24px;
+    }
+
+    &__social-item>svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__copyright {
+        display: flex;
+    }
+}

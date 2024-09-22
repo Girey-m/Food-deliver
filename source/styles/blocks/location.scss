@@ -1,0 +1,9 @@
+.location {
+    padding-top: 72px;
+
+    .container {
+        height: 600px;
+        @include bg-image(center, 'results-map-bg');
+    }
+
+}
