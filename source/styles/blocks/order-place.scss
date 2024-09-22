@@ -1,0 +1,138 @@
+.order-place {
+
+    .container {
+        display: grid;
+        gap: 48px;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        margin: 0;
+        font-family: $secondary-font;
+        font-size: 36px;
+        line-height: 64px;
+        letter-spacing: 1.8px;
+        font-weight: 300;
+        color: $grey-dark;
+    }
+
+    &__link {
+        display: flex;
+        color: $grey-secondary;
+        background-color: $grey-bg;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        height: 48px;
+        width: 118px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__swiper-wrapper {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    &__swiper-slide {
+        display: grid;
+        grid-template-columns: 296px;
+    }
+
+    picture>img {
+        display: block;
+        width: 296px;
+        height: 184px;
+    }
+
+    &__svg-block>svg {
+        width: 150px;
+        height: 80px;
+    }
+
+    &__svg-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 296px;
+        min-height: 112px;
+    }
+
+    .form {
+        background-color: $grey-bg;
+        min-height: 297px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 172px;
+        padding-left: 172px;
+    }
+
+    &__text {
+        display: grid;
+        gap: 24px;
+    }
+
+    &__description {
+        color: $grey-dark;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0;
+        width: 400px;
+    }
+
+    &__form {
+        display: flex;
+        min-height: 72px;
+        gap: 4px;
+        position: relative;
+    }
+
+    &__form-input {
+        width: 336px;
+        color: $grey-secondary;
+        font-family: $primary-font;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding-left: 48px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border: none;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+        border-radius: 6px;
+    }
+
+
+    &__decor {
+        position: absolute;
+        display: block;
+        width: 24px;
+        height: 24px;
+        top: 24px;
+        left: 16px;
+        background-image: url('/images/icons/stack.svg#subtract');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__form-button {
+        border: none;
+        background-color: $yellow-bright;
+        color: $yellow-dark;
+        font-family: $primary-font;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+        width: 88px;
+        border-radius: 4px;
+    }
+}
