@@ -3,7 +3,7 @@
 
     .container {
         display: grid;
-        gap: 49px;
+        gap: 105px;
         padding-bottom: 48px;
         padding-left: 92px;
         padding-right: 88px;
@@ -13,18 +13,26 @@
     &__block {
         display: flex;
         justify-content: space-between;
+
+    }
+
+    &__block:first-child {
+        gap: 184px;
+    }
+
+    &__block:last-child {
+        width: 1260px;
     }
 
 
     &__apps {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 150px;
+        display: grid;
+        grid-template-rows: 75px 75px;
+        width: 296px;
     }
 
     &__button-logo {
-        display: block;
+        display: flex;
         height: 24px;
     }
 
@@ -38,6 +46,8 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
+        padding-top: 40px;
+        border-top: 1px solid $grey-light;
         display: flex;
         gap: 9px;
     }
@@ -45,6 +55,7 @@
     &__apps-item {
         width: 87px;
         height: 28px;
+
     }
 
     &__apps-item-link {
@@ -66,17 +77,33 @@
         padding: 0;
         margin: 0;
         display: flex;
+        gap: 83px;
     }
 
     &__nav-item {
         display: grid;
         margin: 0;
         padding: 0;
+        gap: 24px;
+        width: 149px;
+    }
+
+    &__nav-item:first-child {
+        width: 157px;
+    }
+
+    &__nav-item:last-child {
+        gap: 0;
+        width: 297px;
     }
 
     &__nav-item-tltle {
         margin: 0;
         padding: 0;
+        font-family: $secondary-font;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
     }
 
     &__nav-item-list {
@@ -84,6 +111,89 @@
         padding: 0;
         margin: 0;
         display: grid;
+        gap: 16px;
+    }
+
+    &__nav-elem-link {
+        display: block;
+        font-family: $primary-font;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: $grey-light;
+    }
+
+    .footer-select {
+        position: relative;
+    }
+
+    &__nav-language-dropmenu {
+        font-family: $primary-font;
+        width: 85px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        border: none;
+        color: $grey-light;
+        background-color: inherit;
+        appearance: none;
+    }
+
+    &__nav-arrow {
+        position: absolute;
+        width: 12px;
+        height: 8px;
+        left: 70px;
+        bottom: 8px;
+        background-image: url('/images/icons/stack.svg#arrow');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    &__nav-item-addres {
+        display: grid;
+        gap: 16px;
+        font-style: normal;
+        height: 98px;
+    }
+
+    &__nav-item-addres>span {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    &__nav-item-addres>span:first-child {
+        height: 24px;
+    }
+
+    &__nav-item-addres>span:last-child {
+        height: 48px;
+    }
+
+
+    &__nav-item-tell {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        color: $grey-light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__nav-item-mail {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        color: $grey-light;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
 
     &__social {
@@ -94,7 +204,7 @@
         width: 120px;
         justify-content: space-between;
         height: 24px;
-        margin-top: 30px;
+        // margin-top: 30px;
     }
 
     &__social-item {
@@ -107,6 +217,31 @@
     }
 
     &__copyright {
+        margin: 0;
+        // margin-top: 30px;
         display: flex;
+        gap: 60px;
+    }
+
+    &__copyright-item {
+        font-family: $primary-font;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 900;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__copyright-span {
+        font-family: $primary-font;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

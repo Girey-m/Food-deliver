@@ -36,6 +36,9 @@
         justify-content: center;
     }
 
+    &__swiper {
+        max-width: 1300px;
+    }
 
     &__swiper-wrapper {
         display: flex;
@@ -45,7 +48,6 @@
 
     &__swiper-slide {
         display: grid;
-        grid-template-columns: 136px;
         gap: 16px;
         padding-top: 24px;
         box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);

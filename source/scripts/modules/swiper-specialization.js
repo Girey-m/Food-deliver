@@ -1,12 +1,11 @@
-
-
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 
-export function initOrderSwiper() {
-    const swiper = new Swiper('.order-place__swiper', {
+export function initSpecializationSwiper() {
+    const swiper = new Swiper('.specialization__swiper', {
         direction: 'horizontal',
-        slidesPerView: 4,
+        slidesPerView: 8,
+        spaceBetween: 24,
         modules: [Navigation],
         navigation: {
             nextEl: '.swiper-button-next',

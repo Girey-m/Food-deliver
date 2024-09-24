@@ -21,6 +21,11 @@
         color: $grey-dark;
     }
 
+    &__swiper {
+        max-width: inherit;
+    }
+
+
     &__link {
         display: flex;
         color: $grey-secondary;
@@ -40,6 +45,7 @@
         display: flex;
         gap: 24px;
         justify-content: center;
+
     }
 
     &__swiper-slide {
